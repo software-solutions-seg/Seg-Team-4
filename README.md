@@ -6,3 +6,5 @@ Seg Class
 3) git add .
 4) git commit -m "(input your changes or a message)"
 5) git push
+
+
