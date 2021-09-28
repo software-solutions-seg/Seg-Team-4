@@ -9,5 +9,4 @@ Seg Class
 5) git push
 
 
->>>>>>> 973f5ba82383891b7bd5f26a414a9c4206bf4b65
 I'm Jacques and I am testing git stuff
