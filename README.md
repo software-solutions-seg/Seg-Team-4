@@ -12,7 +12,7 @@ Members names:
  - Joseph Mansour - 300236956
  - Adam Jami
 
-Product name: Night Out
+Product Name: Night Out
 
 
 =======
