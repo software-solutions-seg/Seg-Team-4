@@ -9,7 +9,7 @@ Mohamad Bayaa
 Zeynep Sevincel
 Annika Whitwam - 300232764
 Jacques O'Gallagher-Roy
-Joseph Mansour
+Joseph Mansour - 300236956
 Adam Jami
 
 Product name: Night Out
