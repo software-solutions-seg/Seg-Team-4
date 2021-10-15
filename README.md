@@ -6,7 +6,7 @@ Team name: Software Solutions
 
 Members names:
  - Mohamad Bayaa
- - Zeynep Sevincel
+ - Zeynep Sevincel - 300217661
  - Annika Whitwam - 300232764
  - Jacques O'Gallagher-Roy
  - Joseph Mansour - 300236956
