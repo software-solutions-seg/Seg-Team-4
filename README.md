@@ -10,7 +10,7 @@ Members names:
  - Annika Whitwam - 300232764
  - Jacques O'Gallagher-Roy
  - Joseph Mansour - 300236956
- - Adam Jami
+ - Adam Jami -300245165
 
 Product Name: Night Out
 
