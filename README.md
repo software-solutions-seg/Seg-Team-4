@@ -8,7 +8,7 @@ Members names:
  - Mohamad Bayaa
  - Zeynep Sevincel - 300217661
  - Annika Whitwam - 300232764
- - Jacques O'Gallagher-Roy
+ - Jacques O'Gallagher-Roy 300229209
  - Joseph Mansour - 300236956
  - Adam Jami -300245165
 
