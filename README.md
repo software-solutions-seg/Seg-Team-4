@@ -5,7 +5,7 @@ Seg Class
 Team name: Software Solutions
 
 Members names:
- - Mohamad Bayaa
+ - Mohamad Bayaa - 300251448
  - Zeynep Sevincel - 300217661
  - Annika Whitwam - 300232764
  - Jacques O'Gallagher-Roy 300229209
@@ -23,5 +23,3 @@ Product Name: Night Out
 4. git commit -m "(input your changes or a message)"
 5. git push
 
-I'm Jacques and I am testing git stuff
-Hello
