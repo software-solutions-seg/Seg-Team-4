@@ -1,105 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oxygen'>
-      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bitter'>
-    <div class="dropdown">
-        <button class="dropbtn">Menu</button>
-        <div class="dropdown-content">
-          <a href="#">Home</a>
-          <a href="#">FAQ</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Features</a>
-          <a href="#">About Us</a>
-          <input type="text" placeholder="Search..">
-        </div>
-      </div>
-      <div class="header">
-        <h1> </style ="font-family:HELLODENVERDISPLAYBOLDBoldRg";>NightOut</h1>
+    <div class="topnav">
+        <a class="active" href="Home">Home</a>
+        <a href="#Features">Features</a>
+        <a href="#Contact Us">Contact Us</a>
+        <a href="#FAQ">FAQ</a>
       </div>
 	<style>
-
-        .header {
-           padding: 1px;
-           text-align: center;
-           font-family: "Bitter", Serif;
-           color: white;
-           font-size: 23px;
-        }
-        .dropbtn {
-          background-color: #2c2b2b;
-          color: white;
-          padding: 16px;
-          font-size: 16px;
-          border: none;
-        }
-
-/* The container <div> - needed to position the dropdown content */
-         .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-/* Dropdown Content (Hidden by Default) */
-        .dropdown-content {
-             display: none;
-             position: absolute;
-             background-color: #911A2A;
-             min-width: 160px;
-             box-shadow: 0px 8px 16px 0px rgb(104, 1, 1);
-             z-index: 1;
-            }
-
-/* Links inside the dropdown */
-        .dropdown-content a {
-              color: white;
-              padding: 12px 16px;
-              text-decoration: none;
-              display: block;
-        }
-
-/* Change color of dropdown links on hover */
-         .dropdown-content a:hover {background-color: #2c2b2b;}
-
-/* Show the dropdown menu on hover */
-         .dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdown:hover .dropbtn {background-color: #2c2b2b;}
-        .topnav {
-             background-color: #2c2b2b;
+    .topnav {
+             background-color: #444444;
             overflow: hidden;
     }
 
 /* Style the links inside the navigation bar */
     .topnav a {
-            float: left;
-            color: white;
+            float: right;
+            color: #ffffff;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-family: "Bitter", Serif;
             font-size: 17px;
     }
 
 /* Change the color of links on hover */
     .topnav a:hover {
-            background-color: #911A2A;
-            color:white;
+            background-color: #831100;
+            color: black;
     }
 
 /* Add a color to the active/current link */
     .topnav a.active {
-            background-color: #911A2A;
+            background-color: #831100;
             color: white;
     }
     
     img { 
       width: 100%; 
     }
+        @font-face {
+              font-family: "Bitter";
+              src: url(Fonts/Bitter-VariableFont_wght.ttf);
+        }
+
+        div {
+           font-family: "Bitter";
+        }
 
         body{
-	          background-color: #040536;
+	          background-color: #001e57;
               color:#ffffff
          }
 		table {
@@ -112,23 +61,22 @@
 		table th {
 			border:1px solid #000000;
 			padding:19px;
-			background: #911A2A;
+			background: #831100;
 			color: #ffffff;
 		}
 		table td {
 			border:1px solid #000000;
 			text-align:center;
 			padding:19px;
-			background: #2c2b2b;
+			background: #444444;
 			color: #ffffff;
-      font-family: "Bitter", Serif;
 
 		}
 	</style>
 </head>
 <body>
 
- <img src="seg_logo.png" style="width:50px;height:50px;">
+<img src="seg_logo.png" alt="seg_logo.png" style="width:50px;height:50px;">
 
 <title>Get a Premium Membership!</title>
   </head>
@@ -162,8 +110,8 @@
 				<td>Get location recommendations based on your profile!</td>
 			</tr>
 			<tr>
-				<td>Limited matches</td>
-				<td>Unlimited matches</td>
+				<td>Limited matchs</td>
+				<td>Unlimited matchs</td>
 			</tr>
 		</tbody>
 	</table>
@@ -174,5 +122,13 @@
         <a href="#FAQ">FAQ</a>
       </div>
     <br />
+    <extra>
+        <h3>About Us</h3>
+        <h3>Pricing</h3>
+        <h3>FAQ</h3>
+        <h3>Features</h3>
+        <h3>Contact Us</h3>
+    </extra>
 </body>
 </html>
+
