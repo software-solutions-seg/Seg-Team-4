@@ -1,3 +1,14 @@
 body { 
     font-family:Arial, Helvetica, sans-serif;
 }
+.main-header{
+    
+    overflow: hidden;
+    padding: 0px 0px;
+}
+
+.main-header a.right_icons{
+    float: right;
+    padding: 10px 10px;
+}
+
