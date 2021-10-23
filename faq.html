@@ -1,7 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+
         <style  type="text/css">
+
+        @font-face {
+                        font-family: "hello_denver_display_regulaRg";
+                        src: url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2")
+                                format("woff2"),
+                            url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff")
+                                format("woff");
+                        font-weight: large;
+                        font-style: large;
+                    }
+
             body{
             background: #f6f6f6;
             }
@@ -9,7 +32,6 @@
             .box{
             background: #fff;
             border-radius: 7px;
-            margin: 0 auto;
             }
 
             .box .heading{
@@ -18,11 +40,13 @@
             padding: 20px;
             color: #fff;
             text-align: center;
-            font-family: "Arial";
+            font-family: "hello_denver_display_regulaRg";
             }
 
             .faqs{
             padding: 0px 20px 20px;
+            margin-left: 500px;
+            margin-right: 500px;
             }
 
             details{
@@ -31,7 +55,7 @@
             padding: 20px 40px;
             border-radius: 7px;
             margin-top: 10px;
-            font-family: "Arial";
+            font-family: "Bitter";
             font-size: 25px;
             letter-spacing: 1px;
             cursor: pointer;
@@ -39,13 +63,16 @@
 
             details summary{
             outline: none;
+            font-family: "Oxygen";
+
             }
+
         </style>
 
     </head>
 
     <div class="box">
-        <h1 class="heading">Frequently Asked Questions</h1>
+        <h1 class="heading">FREQUENTLY ASKED QUESTIONS</h1>
         <div class="faqs">
         <details>
             <summary> What is the purpose of this app?</summary>
