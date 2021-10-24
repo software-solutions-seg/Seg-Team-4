@@ -5,18 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <ul>
-            <li id="logo">
-                <a href="home.html"
-                    >HOME<img
-                        src="images/circle_seg_logo.png"
-                        style="width: 50px; height: 50px"
-                /></a>
-            </li>
-            <li id="pricing"><a href="prices.html">PRICING</a></li>
-            <li id="features"><a href="features.html">FEATURES</a></li>
-            <li id="prices"><a href="faq.html">FAQ</a></li>
-            <li id="faq"><a href="contact.html">CONTACT US</a></li>
-            <li id="about"><a href="about.html">ABOUT US</a></li>
+            <li id=logo><a href="home.html"><img src="images/circle_seg_logo.png" style="width:50px;height:50px"></a></li>
+            <li id=pricing><a href="prices.html">PRICING</a></li>
+            <li id=features><a href="features.html">FEATURES</a></li>
+            <li id=prices><a href="faq.html">FAQ</a></li>
+            <li id=faq><a href="contact.html">CONTACT US</a></li>
+            <li id=about><a href="about.html">ABOUT US</a></li>
         </ul>
         <link
             rel="stylesheet"
@@ -42,37 +36,42 @@
             charset="utf-8"
         />
         <style>
-            li {
+            li{
                 display: inline;
-                padding: 3vw;
-                text-decoration-line: none;
+                padding: 5vw;
+                text-decoration-line:none;
+                    
             }
-
-            li a {
+    
+            li a{
                 padding: 0px;
                 color: white;
                 text-decoration: none;
-            }
-
+                font-family: "Bitter", serif;
+                }
+    
             ul {
-                background-color: #040536;
-                padding: 10px;
-                margin-top: 30px;
+                background-color: #262626;
+                padding: 30px ;
+                margin-top: -10px;
+                margin-left: -10px;
                 list-style-type: none;
-                width: 100%;
-                box-shadow: 0 5px #911a24;
+                width: 97%;
+                box-shadow:0 5px #911A24;
                 text-align: center;
+                    
             }
-
-            ul li img {
-                margin-top: -30px;
+                
+            ul li img{
+                margin-top: -15px;
                 float: left;
             }
 
-            a:hover {
+            a:hover{
                 transition-duration: 0.5s;
-                color: #911a24;
+                color:#911A24;  
             }
+            
             @font-face {
                 font-family: "hello_denver_display_regulaRg";
                 src: url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2")
@@ -91,7 +90,7 @@
                 }
             }
 
-            .typewriter h1 {
+            .typewriter h2 {
                 overflow: hidden; /* Ensures the content is not revealed until the animation */
                 border-right: 0.15em solid orange; /* The typwriter cursor */
                 white-space: nowrap; /* Keeps the content on a single line */
@@ -101,7 +100,7 @@
                 font-family: "Bitter", Serif;
                 animation: typing 5s steps(40, end), blink-caret 0.75s;
             }
-            .typewriter h2 {
+            .typewriter h3 {
                 overflow: hidden; /* Ensures the content is not revealed until the animation */
 
                 border-right: 0.15em solid orange; /* The typwriter cursor */
@@ -125,16 +124,41 @@
             p {
                 font-family: "Oxygen";
             }
-            header {
+
+            /*i added these changes*/
+            h1 {
+                letter-spacing: 7px;
+                text-transform: uppercase;
+                font-family: "hello_denver_display_regulaRg";
+                text-shadow: 5px 5px #911A24;
+                margin-top: 300px;
+                margin-bottom: 500px;
+                font-size: 10vw;
+                position: relative;
+                text-align: center;
+                animation: enterscreen 3s 1;
+                
+            }
+            @keyframes enterscreen {
+                0% {left: 100%;}
+                100% {left: 0%;}
+            }
+
+            
+            /*--------------------/
+
+
+            /*header {
                 font-family: hello_denver_display_regulaRg;
                 text-shadow: 5px 5px #911a24;
                 text-align: center;
-            }
+            }*/
             body {
                 background-color: #040536;
                 font-family: "Oxygen";
                 color: honeydew;
             }
+            
             main {
                 background-color: rgb(87, 15, 15);
                 border-radius: 10px 10px 3px 3px;
@@ -144,6 +168,7 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+
             .content-table {
                 border-collapse: collapse;
                 margin: 25px 0;
@@ -159,7 +184,9 @@
                 text-align: center;
                 font-weight: bold;
             }
+            
             .content-table th {
+                padding:30px;
             }
             .content-table td {
                 padding: 12px 15px;
@@ -190,19 +217,19 @@
     <body>
         <div class="contact page">
             <header>
-                <img
+                <!--/*<img
                     src="images/circle_seg_logo.png"
                     alt="NIGHTOUT logo"
                     style="width: 100px; height: 100px"
-                />
+                />-->
                 <h1>CONTACT PAGE</h1>
             </header>
             <main>
                 <div class="typewriter">
-                    <h1>Need Help?</h1>
+                    <h2>Need Help?</h2>
                 </div>
                 <div class="typewriter">
-                    <h2>We are here for you!</h2>
+                    <h3>We are here for you!</h3>
                 </div>
                 <p>
                     Our amazing staff is working around the clock to bring an
