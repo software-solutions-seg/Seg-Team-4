@@ -7,7 +7,7 @@
         <ul>
             <li id="logo">
                 <a href="home.html"
-                    ><img
+                    >HOME<img
                         src="images/circle_seg_logo.png"
                         style="width: 50px; height: 50px"
                 /></a>
@@ -132,17 +132,53 @@
             }
             body {
                 background-color: rgb(04, 05, 36);
+                font-family: "Oxygen";
                 color: honeydew;
             }
             main {
-                background-color: rgb(67, 28, 173);
+                background-color: rgb(70, 18, 18);
+                border-radius: 10px 10px 3px 3px;
                 text-align: center;
             }
-            extra {
+            bottom {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .content-table {
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-size: 0.9em;
+                min-width: 400px;
+                border-radius: 5px 5px 0 0;
+                overflow: hidden;
+            }
+            .content-table thead tr {
+                background-color: #75121a;
+                font-family: "Bitter";
+                color: honeydew;
+                text-align: center;
+                font-weight: bold;
+            }
+            .content-table th {
+            }
+            .content-table td {
+                padding: 12px 15px;
+            }
+            .content-table tbody tr {
+                border-bottom: 2px solid rgb(3, 6, 82);
+            }
+            .content-table tbody tr:nth-of-type(even) {
+                background-color: rgb(22, 24, 85);
+            }
+            .content-table tbody tr:last-of-type {
+                border-bottom: 2px solid #911a24;
+            }
+            footer {
                 font-family: "Bitter";
                 margin-right: auto;
                 margin-left: auto;
             }
+
             /* NEED TO FIX THE BOTTOM ABOUT US... LINKS TO BE ALIGNED */
         </style>
     </head>
@@ -174,19 +210,19 @@
                     costumer experience. And that's why we have a troll free
                     24/7 customer support service line. We are dedicated on
                     constantly improving our app to better our customer needs.
-                    Don’t hesitate on contacting us we are here for you.
+                    Don’t hesitate on contacting us we are here for you.<br />&emsp;
                 </p>
             </main>
-            <footer>
-                Contact info: <br />
-                &emsp;
-                <table>
+            <table class="content-table">
+                <thead>
                     <tr>
                         <th>Contact info</th>
                         <th>Phone Number</th>
                         <th>Email</th>
                         <th>Mail in</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>Canada-US</td>
                         <td>1-800-NIGHT-OUT</td>
@@ -207,15 +243,15 @@
                             >
                         </td>
                     </tr>
-                </table>
-            </footer>
-            <extra>
+                </tbody>
+            </table>
+            <footer>
                 <a href="about.html">About Us </a>&emsp;
                 <a href="prices.html">Pricing </a>&emsp;
                 <a href="faq.html">FAQ </a>&emsp;
                 <a href="features.html">Features </a>&emsp;
                 <a href="contact.html">Contact Us </a>&emsp;
-            </extra>
+            </footer>
         </div>
     </body>
 </html>
