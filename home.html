@@ -41,6 +41,9 @@
       </ul>
      </header>
     <style>
+                body{
+                  background-color: #040536;
+                }
                 li{
                     display: inline;
                     padding: 5vw;
@@ -76,28 +79,58 @@
                     color:#911A24;  
                 }
 
+                @font-face {
+                font-family: "hello_denver_display_regulaRg";
+                src: url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2")
+                        format("woff2"),
+                    url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff")
+                        format("woff");
+                font-weight: large;
+                font-style: large;
+                }
+
+                /*these changes were added*/
+                h1 {
+                letter-spacing: 7px;
+                text-transform: uppercase;
+                font-family: "hello_denver_display_regulaRg";
+                text-shadow: 5px 5px #911A24;
+                margin-top: 300px;
+                margin-bottom: 400px;
+                margin-left: 100px;
+                margin-right: 100px;
+                font-size: 9vw;
+                position: relative;
+                text-align: center;
+                animation: enterscreen 3s 1;
                 
-                h1{
+                }
+                @keyframes enterscreen {
+                    0% {left: 90%;}
+                    100% {left: 0%;}
+                }
+                /*----------------------*/
+                /*h1{
                   font-family: "hello_denver_display_regulaRg";
                   font-size: xx-large;
-                }
+                }*/
                 h2{
-                  font-family: "hello_denver_display_regulaRg";
+                  font-family: "Oxygen", serif;
                   text-decoration: underline;
                   font-size: xx-large;
                 }
                 h3{
-                  font-family: "hello_denver_display_regulaRg";
+                  font-family: "Oxygen", serif;
                   text-decoration: underline;
                   font-size: xx-large;
                 }
                 h4{
-                  font-family: "hello_denver_display_regulaRg";
+                  font-family: "Oxygen", serif;
                   text-decoration: underline;
                   font-size: xx-large;
                 }
                 h5{
-                  font-family: "hello_denver_display_regulaRg";
+                  font-family: "Oxygen", serif;
                   text-decoration: underline;
                   font-size: xx-large;
                 }
@@ -134,7 +167,7 @@
     <div>
       <img src="https://media.routard.com/image/74/5/photo.1526745.jpg">
     </div>
-    <h2>First step: Help us know more about you by creating your profil </h2>
+    <h2>First step: Help us know more about you by creating your profile </h2>
        <p1>
         <center>
           
