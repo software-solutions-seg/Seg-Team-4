@@ -8,35 +8,59 @@
                 background-color: #040536;
                 color: white;            
             }
+            @font-face {
+                font-family: "hello_denver_display_regulaRg";
+                src: url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2")
+                        format("woff2"),
+                    url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff")
+                        format("woff");
+                font-weight: large;
+                font-style: large;
+            }
             h1 {
-                text-align: center;
                 letter-spacing: 7px;
                 text-transform: uppercase;
-                font-family: "Hello Denver", serif;
+                font-family: "hello_denver_display_regulaRg";
                 text-shadow: 5px 5px #911A24;
                 margin-top: 300px;
                 margin-bottom: 500px;
                 font-size: 10vw;
+                position: relative;
+                text-align: center;
+                animation: enterscreen 3s 1;
                 
             }
-            h2 {
+            @keyframes enterscreen {
+                0% {left: 90%;}
+                100% {left: 0%;}
+            }
+
+            table{
+                width:100%
+            }
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            th h{
                 text-align: center;
-                letter-spacing: 5px;
+                letter-spacing: 0.25vw;
                 text-transform: uppercase;
-                font-size: 3vw;
+                font-size: 1.5vw;
                 font-family: "Oxygen", serif;
-                padding:10px 0px 20px 0px;
+                padding:10px;
                 border-radius: 100px;
                 background-color: #911A24;
-                padding:50px 0px 50px 0px;
-                margin-left: 400px;
-                margin-right: 400px;
+
             }
-            p {
+
+            th p{
                 text-align: center;
-                font-size: 25px;
+                font-size: 1vw;
+                padding:100px;
                 font-family: "Bitter", serif;
-                padding:20px 75px 120px 75px;
+                border-style: none;
             }
         
         </style>
@@ -79,7 +103,7 @@
                     list-style-type: none;
                     width: 110%;
                     box-shadow:0 5px #911A24;
-                    text-align:center;
+                    text-align: center;
                     
                 }
                 
@@ -94,34 +118,30 @@
                 }
             </style>
         </header>
-        <h1>Features</h1>
 
-        <h2>Find new people!</h2>
-        <p>
-            Night Out allows you to find new people who's interests align with
-            your own. Using our new propreitary AI machine we are able to match
-            you with someone who will have a very high likelyhood of being your
-            friend. Our test groups have acheived a 95.3% success rate.
-        </p>
-        <br />
-        <br />
-        <br />
-        <h2>Find new places to hangout!</h2>
-        <p>
-            Our app sorts through hundreds of different locations to find those
-            that will best suit your interests. Our state-of-the-art algorithm
-            analyses places that you have previously visited and reviewed to
-            present you with new locations that best suit you.
-        </p>
-        <br />
-        <br />
-        <br />
-        <h2>Give your favorite places 5 STARS!</h2>
-        <p>
-            After you visit a new location you can rate it with up to 5 stars.
-            Our algorithm will analyse your reviews to create new suggestions
-            that are tailored to your previous experiences.
-        </p>
+        <h1 id="featuresTitle">Features<span></span></h1>
+
+        <table>
+            <tr>
+                <th><h >Find new people!</h></th>
+                <th><h >New places to hangout!</h></th>
+                <th><h >5 STARS!</h></th>
+            </tr>
+            <tr>
+                <th id="a"><p>Night Out allows you to find new people who's interests align with
+                    your own. Using our new propreitary AI machine we are able to match
+                    you with someone who will have a very high likelyhood of being your
+                    friend. Our test groups have acheived a 95.3% success rate.</p></th>
+                <th id="b"><p>Our app sorts through hundreds of different locations to find those
+                    that will best suit your interests. Our state-of-the-art algorithm
+                    analyses places that you have previously visited and reviewed to
+                    present you with new locations that best suit you.</p></th>
+                <th id="c"><p>After you visit a new location you can rate it with up to 5 stars.
+                    Our algorithm will analyse your reviews to create new suggestions
+                    that are tailored to your previous experiences.</p></th>
+            </tr>
+        </table>
+
         <br />
         <br />
         <br />
@@ -136,5 +156,4 @@
             </ul>
         </footer>
     </body>
-    
 </html>
