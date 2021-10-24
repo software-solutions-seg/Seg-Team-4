@@ -4,6 +4,20 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <ul>
+            <li id="logo">
+                <a href="home.html"
+                    ><img
+                        src="images/circle_seg_logo.png"
+                        style="width: 50px; height: 50px"
+                /></a>
+            </li>
+            <li id="pricing"><a href="prices.html">PRICING</a></li>
+            <li id="features"><a href="features.html">FEATURES</a></li>
+            <li id="prices"><a href="faq.html">FAQ</a></li>
+            <li id="faq"><a href="contact.html">CONTACT US</a></li>
+            <li id="about"><a href="about.html">ABOUT US</a></li>
+        </ul>
         <link
             rel="stylesheet"
             href="stylesheet.css"
@@ -28,6 +42,37 @@
             charset="utf-8"
         />
         <style>
+            li {
+                display: inline;
+                padding: 5vw;
+                text-decoration-line: none;
+            }
+
+            li a {
+                padding: 0px;
+                color: white;
+                text-decoration: none;
+            }
+
+            ul {
+                background-color: #040536;
+                padding: 10px;
+                margin-top: 30px;
+                list-style-type: none;
+                width: 100%;
+                box-shadow: 0 5px #911a24;
+                text-align: center;
+            }
+
+            ul li img {
+                margin-top: -30px;
+                float: left;
+            }
+
+            a:hover {
+                transition-duration: 0.5s;
+                color: #911a24;
+            }
             @font-face {
                 font-family: "hello_denver_display_regulaRg";
                 src: url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2")
