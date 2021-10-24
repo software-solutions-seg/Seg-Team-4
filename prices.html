@@ -3,97 +3,60 @@
 <head>
       <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oxygen'>
       <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bitter'>
-    <div class="dropdown">
-        <button class="dropbtn">Menu</button>
-        <div class="dropdown-content">
-          <a href="#">Home</a>
-          <a href="#">FAQ</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Features</a>
-          <a href="#">About Us</a>
-          <input type="text" placeholder="Search..">
-        </div>
-      </div>
-      <div class="header">
-      <img src="Seg-Team-4/mockups/seg_logo.png" alt="seg_logo.png" style="width:50px;height:50px;"><h1> </style ="font-family:HELLODENVERDISPLAYBOLDBoldRg";>NightOut</h1>
-      </div>
-	<style>
+      <body>
+        <header>
+          <ul>
+              <li id=logo><a href="home.html"><img src="circle_seg_logo.png" style="width:50px;height:50px"></a></li>
+              <li id=pricing><a href="prices.html">PRICING</a></li>
+              <li id=features><a href="features.html">FEATURES</a></li>
+              <li id=prices><a href="faq.html">FAQ</a></li>
+              <li id=faq><a href="contact.html">CONTACT US</a></li>
+              <li id=about><a href="about.html">ABOUT US</a></li>
+              
+          </ul>
+          <style>
+            @font-face {
+             font-family: 'hello_denver_display_regulaRg';
+             src: url('hellodenverdisplayregular_v1.6-webfont.woff2') format('woff2'),
+             url('hellodenverdisplayregular_v1.6-webfont.woff') format('woff');
+             font-weight: normal;
+             font-style: normal;
 
-        .header {
-           padding: 1px;
-           text-align: center;
-           font-family: "Bitter", Serif;
-           color: white;
-           font-size: 23px;
-        }
-        .dropbtn {
-          background-color: #262626;
-          color: white;
-          padding: 16px;
-          font-size: 16px;
-          border: none;
-        }
-
-/* The container <div> - needed to position the dropdown content */
-         .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-/* Dropdown Content (Hidden by Default) */
-        .dropdown-content {
-             display: none;
-             position: absolute;
-             background-color: #911A2A;
-             min-width: 160px;
-             box-shadow: 0px 8px 16px 0px rgb(104, 1, 1);
-             z-index: 1;
             }
+        
+            .h1 {
+              font-family: 'hello_denver_display_regulaRg';
+            }
+              li{
+                  display: inline;
+                  padding: 5vw;
+                  text-decoration-line:none;
+                  
+              }
+  
+              li a{
+                  padding: 0px;
+                  color: white;
+                  text-decoration: none;
+              }
+  
+              ul {
+                  background-color: #040536;
+                  padding: 10px ;
+                  margin-top: 30px;
+                  list-style-type: none;
+                  width: 100%;
+                  box-shadow:0 5px #911A24;
+                  text-align:center;
+                  
+              }
+              
+              ul li img{
+                  margin-top: -30px;
+                  float: left;
+              }
 
-/* Links inside the dropdown */
-        .dropdown-content a {
-              color: white;
-              padding: 12px 16px;
-              text-decoration: none;
-              display: block;
-        }
 
-/* Change color of dropdown links on hover */
-         .dropdown-content a:hover {background-color: #2c2b2b;}
-
-/* Show the dropdown menu on hover */
-         .dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdown:hover .dropbtn {background-color: #2c2b2b;}
-        .topnav {
-             background-color: #2c2b2b;
-            overflow: hidden;
-    }
-
-/* Style the links inside the navigation bar */
-    .topnav a {
-            float: left;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-family: "Bitter", Serif;
-            font-size: 17px;
-    }
-
-/* Change the color of links on hover */
-    .topnav a:hover {
-            background-color: #911A2A;
-            color:white;
-    }
-
-/* Add a color to the active/current link */
-    .topnav a.active {
-            background-color: #911A2A;
-            color: white;
-    }
-    
     img { 
       width: 100%; 
     }
@@ -124,19 +87,17 @@
 			color: #ffffff;
       font-family: "Bitter", Serif;
 		}
-    .title {
-      font-family: "Oxygen", Serif;
-    }
 	</style>
 </head>
-<body>
 
-<title>Get a Premium Membership!</title>
+<body>
+  <title>Get a Premium Membership!></title>
   </head>
   <body>
-    <h1>Get a Premium Membership!</h1>
-    <p>Make your night more memorable by getting a premium membership for only 14.99$/month !</p>
-	<title>HTML Table Generator</title> 
+    <h1><center>Get a Premium Membership!</center></h1>
+    <p><center>Make your night more memorable by getting a premium membership for only 14.99$/month !</center></p>
+	
+    <title>HTML Table Generator</title> 
 	
     <table align=center>
 		<thead>
@@ -168,12 +129,18 @@
 			</tr>
 		</tbody>
 	</table>
-    <div class="topnav">
-        <a class="active" href="Home">Home</a>
-        <a href="#Features">Features</a>
-        <a href="#Contact Us">Contact Us</a>
-        <a href="#FAQ">FAQ</a>
-      </div>
-    <br />
+  <br />
+  <br />
+  <br />
+  <footer>
+      <ul>
+          <li id=home><a href="home.html">HOME</a></li>
+          <li id=pricing><a href="prices.html">PRICING</a></li>
+          <li id=features><a href="features.html">FEATURES</a></li>
+          <li id=prices><a href="faq.html">FAQ</a></li>
+          <li id=faq><a href="contact.html">CONTACT US</a></li>
+          <li id=about><a href="about.html">ABOUT US</a></li>
+      </ul>
+  </footer>
 </body>
 </html>
