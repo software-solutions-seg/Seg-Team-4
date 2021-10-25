@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>  
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Oxygen"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Bitter"
+        />
         <style>
             body {
                 background-color: #040536;
-                color: white;          
+                color: white;
             }
-            
+
             @font-face {
                 font-family: "hello_denver_display_regulaRg";
                 src: url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2")
@@ -22,73 +28,82 @@
                 letter-spacing: 7px;
                 text-transform: uppercase;
                 font-family: "hello_denver_display_regulaRg";
-                text-shadow: 5px 5px #911A24;
+                text-shadow: 5px 5px #911a24;
                 margin-top: 300px;
                 margin-bottom: 500px;
                 font-size: 10vw;
                 position: relative;
                 text-align: center;
                 animation: enterscreen 3s 1;
-                
             }
             @keyframes enterscreen {
-                0% {left: 100%;}
-                100% {left: 0%;}
+                0% {
+                    left: 100%;
+                }
+                100% {
+                    left: 0%;
+                }
             }
 
-            .center{
+            .center {
                 margin-left: auto;
                 margin-right: auto;
-                }
+            }
 
-            th h{
-                
+            th h {
                 text-align: center;
                 letter-spacing: 0.25vw;
                 text-transform: uppercase;
                 font-size: 1.5vw;
                 font-family: "Oxygen", serif;
-                padding:10px;
+                padding: 10px;
                 border-radius: 100px;
-                background-color: #911A24;
-
+                background-color: #911a24;
             }
 
-            th p{
+            th p {
                 text-align: center;
                 font-size: 1vw;
-                padding:100px;
+                padding: 100px;
                 font-family: "Bitter", serif;
                 border-style: none;
             }
-        
         </style>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Night Out - Features</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Features</title>
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="images/circle_seg_logo.png"
+        />
     </head>
-    
+
     <body>
         <header>
             <ul>
-                <li id=logo><a href="home.html"><img src="images/circle_seg_logo.png" style="width:50px;height:50px"></a></li>
-                <li id=pricing><a href="prices.html">PRICING</a></li>
-                <li id=features><a href="features.html">FEATURES</a></li>
-                <li id=prices><a href="faq.html">FAQ</a></li>
-                <li id=faq><a href="contact.html">CONTACT US</a></li>
-                <li id=about><a href="about.html">ABOUT US</a></li>
-                
+                <li id="logo">
+                    <a href="home.html"
+                        ><img
+                            src="images/circle_seg_logo.png"
+                            style="width: 50px; height: 50px"
+                    /></a>
+                </li>
+                <li id="pricing"><a href="prices.html">PRICING</a></li>
+                <li id="features"><a href="features.html">FEATURES</a></li>
+                <li id="prices"><a href="faq.html">FAQ</a></li>
+                <li id="faq"><a href="contact.html">CONTACT US</a></li>
+                <li id="about"><a href="about.html">ABOUT US</a></li>
             </ul>
             <style>
-                li{
-                display: inline;
-                padding: 5vw;
-                text-decoration-line:none;
-                
+                li {
+                    display: inline;
+                    padding: 5vw;
+                    text-decoration-line: none;
                 }
 
-                li a{
+                li a {
                     padding: 0px;
                     color: white;
                     text-decoration: none;
@@ -96,50 +111,62 @@
 
                 ul {
                     background-color: #262626;
-                    padding: 30px ;
+                    padding: 30px;
                     margin-top: -10px;
                     margin-left: -10px;
                     list-style-type: none;
                     width: 97%;
-                    box-shadow:0 5px #911A24;
-                    text-align:center;
-                
+                    box-shadow: 0 5px #911a24;
+                    text-align: center;
                 }
-            
-                ul li img{
+
+                ul li img {
                     margin-top: -15px;
                     float: left;
                 }
 
-                a:hover{
+                a:hover {
                     transition-duration: 0.5s;
-                    color:#911A24;  
+                    color: #911a24;
                 }
             </style>
         </header>
-
-        
 
         <h1 id="featuresTitle">Features<span></span></h1>
 
         <table>
             <tr>
-                <th><h >Find new people!</h></th>
-                <th><h >New places to hangout!</h></th>
-                <th><h >5 STARS!</h></th>
+                <th><h>Find new people!</h></th>
+                <th><h>New places to hangout!</h></th>
+                <th><h>5 STARS!</h></th>
             </tr>
             <tr>
-                <th id="a"><p>Night Out allows you to find new people who's interests align with
-                    your own. Using our new propreitary AI machine we are able to match
-                    you with someone who will have a very high likelyhood of being your
-                    friend. Our test groups have acheived a 95.3% success rate.</p></th>
-                <th id="b"><p>Our app sorts through hundreds of different locations to find those
-                    that will best suit your interests. Our state-of-the-art algorithm
-                    analyses places that you have previously visited and reviewed to
-                    present you with new locations that best suit you.</p></th>
-                <th id="c"><p>After you visit a new location you can rate it with up to 5 stars.
-                    Our algorithm will analyse your reviews to create new suggestions
-                    that are tailored to your previous experiences.</p></th>
+                <th id="a">
+                    <p>
+                        Night Out allows you to find new people who's interests
+                        align with your own. Using our new propreitary AI
+                        machine we are able to match you with someone who will
+                        have a very high likelyhood of being your friend. Our
+                        test groups have acheived a 95.3% success rate.
+                    </p>
+                </th>
+                <th id="b">
+                    <p>
+                        Our app sorts through hundreds of different locations to
+                        find those that will best suit your interests. Our
+                        state-of-the-art algorithm analyses places that you have
+                        previously visited and reviewed to present you with new
+                        locations that best suit you.
+                    </p>
+                </th>
+                <th id="c">
+                    <p>
+                        After you visit a new location you can rate it with up
+                        to 5 stars. Our algorithm will analyse your reviews to
+                        create new suggestions that are tailored to your
+                        previous experiences.
+                    </p>
+                </th>
             </tr>
         </table>
 
@@ -148,12 +175,12 @@
         <br />
         <footer>
             <ul>
-                <li id=home><a href="home.html">HOME</a></li>
-                <li id=pricing><a href="prices.html">PRICING</a></li>
-                <li id=features><a href="features.html">FEATURES</a></li>
-                <li id=prices><a href="faq.html">FAQ</a></li>
-                <li id=faq><a href="contact.html">CONTACT US</a></li>
-                <li id=about><a href="about.html">ABOUT US</a></li>
+                <li id="home"><a href="home.html">HOME</a></li>
+                <li id="pricing"><a href="prices.html">PRICING</a></li>
+                <li id="features"><a href="features.html">FEATURES</a></li>
+                <li id="prices"><a href="faq.html">FAQ</a></li>
+                <li id="faq"><a href="contact.html">CONTACT US</a></li>
+                <li id="about"><a href="about.html">ABOUT US</a></li>
             </ul>
         </footer>
     </body>
