@@ -4,13 +4,24 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            type="image/png"
+            href="images/circle_seg_logo.png"
+        />
         <ul>
-            <li id=logo><a href="home.html"><img src="images/circle_seg_logo.png" style="width:50px;height:50px"></a></li>
-            <li id=pricing><a href="prices.html">PRICING</a></li>
-            <li id=features><a href="features.html">FEATURES</a></li>
-            <li id=prices><a href="faq.html">FAQ</a></li>
-            <li id=faq><a href="contact.html">CONTACT US</a></li>
-            <li id=about><a href="about.html">ABOUT US</a></li>
+            <li id="logo">
+                <a href="home.html"
+                    ><img
+                        src="images/circle_seg_logo.png"
+                        style="width: 50px; height: 50px"
+                /></a>
+            </li>
+            <li id="pricing"><a href="prices.html">PRICING</a></li>
+            <li id="features"><a href="features.html">FEATURES</a></li>
+            <li id="prices"><a href="faq.html">FAQ</a></li>
+            <li id="faq"><a href="contact.html">CONTACT US</a></li>
+            <li id="about"><a href="about.html">ABOUT US</a></li>
         </ul>
         <link
             rel="stylesheet"
@@ -35,43 +46,63 @@
             type="text/css"
             charset="utf-8"
         />
+        <script>
+            var i = 0;
+            var txt = "Need any assistance?";
+            var speed = 50;
+
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("help").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById(
+                        "You got a friend in me"
+                    ).innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+        </script>
         <style>
-            li{
+            li {
                 display: inline;
                 padding: 5vw;
-                text-decoration-line:none;
-                    
+                text-decoration-line: none;
             }
-    
-            li a{
+
+            li a {
                 padding: 0px;
                 color: white;
                 text-decoration: none;
                 font-family: "Bitter", serif;
-                }
-    
+            }
+
             ul {
                 background-color: #262626;
-                padding: 30px ;
+                padding: 30px;
                 margin-top: -10px;
                 margin-left: -10px;
                 list-style-type: none;
                 width: 97%;
-                box-shadow:0 5px #911A24;
+                box-shadow: 0 5px #911a24;
                 text-align: center;
-                    
             }
-                
-            ul li img{
+
+            ul li img {
                 margin-top: -15px;
                 float: left;
             }
 
-            a:hover{
+            a:hover {
                 transition-duration: 0.5s;
-                color:#911A24;  
+                color: #911a24;
             }
-            
+
             @font-face {
                 font-family: "hello_denver_display_regulaRg";
                 src: url("Fonts/hello_denver/hellodenverdisplayregular_v1.6-webfont.woff2")
@@ -81,88 +112,40 @@
                 font-weight: large;
                 font-style: large;
             }
-            @keyframes typing {
-                from {
-                    width: 0;
-                }
-                to {
-                    width: 100%;
-                }
-            }
-
-            .typewriter h2 {
-                overflow: hidden; /* Ensures the content is not revealed until the animation */
-                border-right: 0.15em solid orange; /* The typwriter cursor */
-                white-space: nowrap; /* Keeps the content on a single line */
-                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-                /* letter-spacing: 0.15em; Adjust as needed */
-                letter-spacing: 0.15em;
-                font-family: "Bitter", Serif;
-                animation: typing 5s steps(40, end), blink-caret 0.75s;
-            }
-            .typewriter h3 {
-                overflow: hidden; /* Ensures the content is not revealed until the animation */
-
-                border-right: 0.15em solid orange; /* The typwriter cursor */
-                white-space: nowrap; /* Keeps the content on a single line */
-                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-                /* letter-spacing: 0.15em; Adjust as needed */
-                letter-spacing: 0.26em;
-                font-family: "Bitter", Serif;
-                animation: typing 10s steps(40, end), blink-caret 0.75s;
-            }
-            /* The typewriter cursor effect */
-            @keyframes blink-caret {
-                from,
-                to {
-                    border-color: transparent;
-                }
-                50% {
-                    border-color: orange;
-                }
-            }
             p {
                 font-family: "Oxygen";
             }
-
-            /*i added these changes*/
             h1 {
                 letter-spacing: 7px;
                 text-transform: uppercase;
                 font-family: "hello_denver_display_regulaRg";
-                text-shadow: 5px 5px #911A24;
+                text-shadow: 5px 5px #911a24;
                 margin-top: 300px;
                 margin-bottom: 500px;
                 font-size: 10vw;
                 position: relative;
                 text-align: center;
                 animation: enterscreen 3s 1;
-                
             }
             @keyframes enterscreen {
-                0% {left: 100%;}
-                100% {left: 0%;}
+                0% {
+                    left: 100%;
+                }
+                100% {
+                    left: 0%;
+                }
             }
-
-            
-            /*--------------------/
-
-
-            /*header {
-                font-family: hello_denver_display_regulaRg;
-                text-shadow: 5px 5px #911a24;
-                text-align: center;
-            }*/
             body {
                 background-color: #040536;
                 font-family: "Oxygen";
                 color: honeydew;
             }
-            
+
             main {
                 background-color: rgb(87, 15, 15);
                 border-radius: 10px 10px 3px 3px;
                 text-align: center;
+                margin: 70px;
             }
             bottom {
                 margin-left: auto;
@@ -171,7 +154,6 @@
 
             .content-table {
                 border-collapse: collapse;
-                margin: 25px 0;
                 font-size: 0.9em;
                 min-width: 400px;
                 border-radius: 5px 5px 0 0;
@@ -184,9 +166,9 @@
                 text-align: center;
                 font-weight: bold;
             }
-            
+
             .content-table th {
-                padding:30px;
+                padding: 30px;
             }
             .content-table td {
                 padding: 12px 15px;
@@ -205,8 +187,44 @@
                 margin-right: auto;
                 margin-left: auto;
             }
+            .typewriter h2 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: 0.15em solid orange; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                /* letter-spacing: 0.15em; Adjust as needed */
+                letter-spacing: 0.15em;
+                font-family: "Bitter", Serif;
+                animation: typing 5s steps(40, end), blink-caret 0.75s;
+            }
+            .typewriter h3 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
 
-            /* NEED TO FIX THE BOTTOM ABOUT US... LINKS TO BE ALIGNED */
+                border-right: 0.15em solid orange; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                /* letter-spacing: 0.15em; Adjust as needed */
+                letter-spacing: 0.15em;
+                font-family: "Bitter", Serif;
+                animation: typing 8s steps(40, end), blink-caret 0.75s;
+            }
+            @keyframes typing {
+                from {
+                    width: 0;
+                }
+                to {
+                    width: 100%;
+                }
+            }
+            @keyframes blink-caret {
+                from,
+                to {
+                    border-color: transparent;
+                }
+                50% {
+                    border-color: orange;
+                }
+            }
         </style>
     </head>
     <link
@@ -215,21 +233,16 @@
         href="images/circle_seg_logo.png"
     />
     <body>
-        <div class="contact page">
+        <div class="Contact Page">
             <header>
-                <!--/*<img
-                    src="images/circle_seg_logo.png"
-                    alt="NIGHTOUT logo"
-                    style="width: 100px; height: 100px"
-                />-->
                 <h1>CONTACT PAGE</h1>
             </header>
-            <main>
-                <div class="typewriter">
-                    <h2>Need Help?</h2>
+            <main class="typewriter">
+                <div>
+                    <h2>Need any assistance?</h2>
                 </div>
-                <div class="typewriter">
-                    <h3>We are here for you!</h3>
+                <div>
+                    <h3>We are here to help!</h3>
                 </div>
                 <p>
                     Our amazing staff is working around the clock to bring an
@@ -240,7 +253,7 @@
                     Don’t hesitate on contacting us we are here for you.<br />&emsp;
                 </p>
             </main>
-            <table class="content-table">
+            <table align="center" class="content-table">
                 <thead>
                     <tr>
                         <th>Contact info</th>
@@ -272,6 +285,7 @@
                     </tr>
                 </tbody>
             </table>
+            <br />&emsp;
             <footer>
                 <ul>
                     <li id="home"><a href="home.html">HOME</a></li>
