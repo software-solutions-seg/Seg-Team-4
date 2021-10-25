@@ -1,0 +1,32 @@
+
+Overall look and feel of Night Out:
+
+sleek and dark to reflect that this is a night time website. avoid robotic looking text. generally minimalistic, not too cluttered.
+
+
+colours:
+
+we want the colours to reflect the night time feel our app, we are going for some dark blue, dark red and some dark gray with white text.
+
+Color theme: red = ##911a24 , background blue = #040536, Light gray = #262626, white=white,
+    (The light gray and white can very but the blue and red will always be the same)
+
+Iconography:
+
+we want our titles to look like neon signs as that encourages keep the night theme.
+ it will be composed of white text and a red shadow to give it a 3d look. It will be the focus of the page
+ having users scroll to access content and other info. Giving off a minimalistic view.
+
+typography 
+
+use hello Denver display for title and big text and we will use bitter and oxygen for Headers and general text.
+
+
+links:
+
+will light up when moused hover over them.
+
+JS:
+
+added some member count and used it for math in prices.
+
